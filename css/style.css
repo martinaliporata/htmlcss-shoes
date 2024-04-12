@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red{
+    background-color: red;
+    height: 100vh;
+}
+
+.green{
+    background-color: green;
+    height: 100vh;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100vh;
+}
+
+.numbers {
+    float: right;
+}
+
+main {
+    clear: both;
+}
