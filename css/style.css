@@ -14,15 +14,43 @@
     height: 100vh;
 }
 
+main {
+    clear: both;
+}
+
 .yellow{
     background-color: yellow;
     height: 100vh;
 }
 
-.numbers {
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
     float: right;
+    color: black;
 }
 
-main {
-    clear: both;
+li {
+    background-color: white;
+    border: solid 5px transparent;
+    padding: 1rem;
+    border-radius: 30rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ty {
+    color: yellow;
+}
+
+.tg {
+    color: green;
 }
