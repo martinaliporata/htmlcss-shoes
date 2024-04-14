@@ -4,23 +4,23 @@
     box-sizing: border-box;
 }
 
-.red{
+#red{
     background-color: red;
     height: 100vh;
 }
 
-.green{
+#green{
     background-color: green;
+    height: 100vh;
+}
+
+#yellow{
+    background-color: yellow;
     height: 100vh;
 }
 
 main {
     clear: both;
-}
-
-.yellow{
-    background-color: yellow;
-    height: 100vh;
 }
 
 ul {
